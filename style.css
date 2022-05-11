@@ -1,0 +1,49 @@
+/*
+Theme Name: Quote Theme
+Author: Thomas Boulund Meng Hansen
+Description: Used for the quote exercise
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+body {
+    background-color: #ACC3EF;
+    display: flex;
+    font-family: Verdana;
+    font-size: 24pt;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 32px);
+    margin: 0 2em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-size: 64pt;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+header img {
+    max-height: 70pt;
+    padding-right: 1em;
+}
+
+.quote {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.author {
+    font-style: italic;
+    text-align: center;
+}
